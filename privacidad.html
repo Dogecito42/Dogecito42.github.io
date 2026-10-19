@@ -10,30 +10,31 @@
 <main>
 	<p><a href="index.html">← mis-videos</a></p>
 	<h1>Política de privacidad</h1>
-	<p class="fecha">Última actualización: 18 de octubre de 2026 · <a href="#english">English version</a></p>
+	<p class="fecha">Última actualización: 19 de octubre de 2026 · <a href="#english">English version</a></p>
 
 	<h2>1. Quién es el responsable</h2>
 	<p>«mis-videos» es una aplicación de uso personal del autor del canal. Contacto: <a href="mailto:before.after.sp@gmail.com">before.after.sp@gmail.com</a>.</p>
 
 	<h2>2. Qué hace la aplicación</h2>
-	<p>Es un script que se ejecuta solo en el ordenador del autor y sube los vídeos que él mismo ha creado a su propio canal de YouTube, con su título y su descripción. Usa los Servicios de la API de YouTube (YouTube API Services).</p>
+	<p>Es un script que se ejecuta solo en el ordenador del autor y sube los vídeos que él mismo ha creado a sus propias cuentas de YouTube y TikTok, con su título y su descripción. Usa los Servicios de la API de YouTube (YouTube API Services) y la Content Posting API y Login Kit de TikTok.</p>
 
 	<h2>3. Qué datos usa</h2>
 	<ul>
 		<li><strong>Permiso de Google (OAuth):</strong> solo pide el permiso <code>youtube.upload</code>, que sirve para subir vídeos. No lee el correo, los contactos, el historial ni otros datos de la cuenta.</li>
-		<li><strong>Token de acceso:</strong> el permiso concedido se guarda en un archivo local en el ordenador del autor. No se envía a ningún servidor propio ni a terceros.</li>
+		<li><strong>Permiso de TikTok:</strong> pide <code>user.info.basic</code> (nombre de usuario y avatar, para comprobar en qué cuenta se publica), <code>video.upload</code> (enviar el vídeo a la bandeja de borradores) y <code>video.publish</code> (publicarlo). No lee mensajes, seguidores ni otros datos de la cuenta.</li>
+		<li><strong>Tokens de acceso:</strong> los permisos concedidos se guardan en archivos locales en el ordenador del autor. No se envían a ningún servidor propio ni a terceros.</li>
 		<li><strong>Vídeos y textos:</strong> los vídeos, títulos y descripciones que se suben son contenido creado por el autor.</li>
 	</ul>
 	<p>La aplicación no recoge datos de otras personas, no tiene usuarios externos, no usa cookies ni analítica y no vende ni comparte datos con nadie.</p>
 
 	<h2>4. Con quién se comparten</h2>
-	<p>Solo con Google/YouTube, que es el destino de la subida. El tratamiento que hace YouTube se rige por las <a href="https://www.youtube.com/t/terms">Condiciones del servicio de YouTube</a> y la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>.</p>
+	<p>Solo con Google/YouTube y con TikTok, que son el destino de la subida. Su tratamiento se rige por las <a href="https://www.youtube.com/t/terms">Condiciones del servicio de YouTube</a>, la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>, las <a href="https://www.tiktok.com/legal/terms-of-service">Condiciones del servicio de TikTok</a> y la <a href="https://www.tiktok.com/legal/privacy-policy">Política de privacidad de TikTok</a>.</p>
 
 	<h2>5. Uso limitado</h2>
-	<p>El uso y la transferencia de la información recibida de las APIs de Google cumplen la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de las APIs de Google</a>, incluidos los requisitos de uso limitado.</p>
+	<p>El uso y la transferencia de la información recibida de las APIs de Google cumplen la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de las APIs de Google</a>, incluidos los requisitos de uso limitado. Los datos recibidos de TikTok se usan solo para publicar los vídeos del autor.</p>
 
 	<h2>6. Conservación y borrado</h2>
-	<p>El token se conserva mientras se use la aplicación. Se puede retirar el permiso en cualquier momento desde <a href="https://myaccount.google.com/permissions">la página de permisos de tu cuenta de Google</a> o borrando el archivo local. Para cualquier solicitud sobre tus datos, escribe al correo de contacto.</p>
+	<p>Los tokens se conservan mientras se use la aplicación. Se puede retirar el permiso en cualquier momento desde <a href="https://myaccount.google.com/permissions">la página de permisos de tu cuenta de Google</a>, desde los ajustes de TikTok (Ajustes y privacidad → Seguridad → Apps y servicios) o borrando los archivos locales. Para cualquier solicitud sobre tus datos, escribe al correo de contacto.</p>
 
 	<h2>7. Cambios</h2>
 	<p>Si esta política cambia, se actualizará en esta página con su nueva fecha.</p>
@@ -42,17 +43,18 @@
 
 	<h1 id="english" lang="en">Privacy policy (English)</h1>
 	<div lang="en">
-	<p>«mis-videos» is a personal tool run only on the channel owner's computer to upload the owner's own videos to the owner's own YouTube channel through the YouTube API Services. Contact: <a href="mailto:before.after.sp@gmail.com">before.after.sp@gmail.com</a>.</p>
+	<p>«mis-videos» is a personal tool run only on the channel owner's computer to upload the owner's own videos to the owner's own YouTube and TikTok accounts through the YouTube API Services and TikTok's Login Kit and Content Posting API. Contact: <a href="mailto:before.after.sp@gmail.com">before.after.sp@gmail.com</a>.</p>
 	<ul>
-		<li>It requests only the <code>youtube.upload</code> scope. It does not read email, contacts, history or any other account data.</li>
-		<li>The OAuth token is stored in a local file on the owner's computer and is never sent to any other server or third party.</li>
+		<li>On Google it requests only the <code>youtube.upload</code> scope. It does not read email, contacts, history or any other account data.</li>
+		<li>On TikTok it requests <code>user.info.basic</code> (username and avatar, to confirm the target account), <code>video.upload</code> and <code>video.publish</code>. It does not read messages, followers or any other account data.</li>
+		<li>OAuth tokens are stored in local files on the owner's computer and are never sent to any other server or third party.</li>
 		<li>It does not collect data from anyone else, has no external users, uses no cookies or analytics, and does not sell or share data.</li>
-		<li>Uploaded content goes only to YouTube, governed by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
-		<li>Use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
-		<li>Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">Google Account permissions</a> or by deleting the local token file.</li>
+		<li>Uploaded content goes only to YouTube and TikTok, governed by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, the <a href="https://www.tiktok.com/legal/terms-of-service">TikTok Terms of Service</a> and the <a href="https://www.tiktok.com/legal/privacy-policy">TikTok Privacy Policy</a>.</li>
+		<li>Use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Data received from TikTok is used only to publish the owner's videos.</li>
+		<li>Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">Google Account permissions</a>, in TikTok's settings (Settings and privacy → Security → Apps and services), or by deleting the local token files.</li>
 	</ul>
 	</div>
 </main>
-<footer><a href="index.html">mis-videos</a></footer>
+<footer><a href="index.html">mis-videos</a> · <a href="terminos.html">Condiciones de uso</a></footer>
 </body>
 </html>
